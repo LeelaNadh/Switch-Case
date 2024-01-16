@@ -1,26 +1,15 @@
 package project1;
-
 import java.util.Scanner;
-
-public class Project {
-
-	
+public class Project {	
  public static void main(String arg[]){
 		
 	 dates();
 //	 days();
 	}
- 
- 
- 
- 
- 
- public static String dates() {
-	 
+ public static String dates() { 
 	 Scanner reader = new Scanner(System.in);
 	 System.out.print("Enter a number between 1 to 7 : ");
 	 int n = reader.nextInt();
-	
 		switch (n) {
 		case 1:
 		    System.out.println("monday");
@@ -45,13 +34,9 @@ public class Project {
 		    break;		
 		}
 	 return null;
- };
- 
- 
+ }; 
  public static String days() {
-	
+	// your code
 	 return null;
- }
- 
- 
+ } 
 }
